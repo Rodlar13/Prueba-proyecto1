@@ -15,5 +15,10 @@ public class Prueba {
         return nom;
     }
 
-
+    @Override
+    public String toString() {
+        return "Prueba{" +
+                "nom='" + nom + '\'' +
+                '}';
+    }
 }
